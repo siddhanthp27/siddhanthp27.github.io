@@ -55,7 +55,7 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+          <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='dpzlearn_image'><img src='images/malaria_seg_before.png' width="160" height="160"></div>
@@ -117,7 +117,7 @@
             </td>
           </tr>
 
-          <tr onmouseout="loss_stop()" onmouseover="loss_start()" bgcolor="#ffffd0">
+          <tr onmouseout="loss_stop()" onmouseover="loss_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='loss_image'><img src='images/vis_after.png'></div>
@@ -189,6 +189,110 @@
           </tr>
         </tbody></table>
         
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Industry</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dpzlearn_image'><img src='images/ARAI Logo.png'></div>
+                <img src='images/ARAI Logo.png'>
+              </div>
+              <script type="text/javascript">
+                function dpzlearn_start() {
+                  document.getElementById('dpzlearn_image').style.opacity = "1";
+                }
+
+                function dpzlearn_stop() {
+                  document.getElementById('dpzlearn_image').style.opacity = "0";
+                }
+                dpzlearn_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Predicting Medical Procedures using Diagnostic Sequences with Neural Machine Translation</papertitle>
+              <br>
+              <p></p>
+              <p>
+              	<br>
+              	<ul>
+              		<li>Built an LSTM model that predicts medical procedures to be performed by taking a sequence of diagnosis codes as input</li>
+              		<li>Tuned the Sequence to Sequence model used in Neural Machine Translation to predict medical procedures</li>
+              	</ul>
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dpzlearn_image'><img src='images/ARAI Logo.png'></div>
+                <img src='images/ARAI Logo.png'>
+              </div>
+              <script type="text/javascript">
+                function dpzlearn_start() {
+                  document.getElementById('dpzlearn_image').style.opacity = "1";
+                }
+
+                function dpzlearn_stop() {
+                  document.getElementById('dpzlearn_image').style.opacity = "0";
+                }
+                dpzlearn_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Dynamic Memory Network for Textual Question Answering</papertitle>
+              <br>
+              <p></p>
+              <p>
+              	<br>
+              	<ul>
+              		<li>Built a Dynamic Memory Network which answers questions based on a sequence of facts</li>
+              		<li>Incorporated modifications like a Two-Level Encoder in the Input Module and Global-level Attention Gates in the Memory Module</li>
+              	</ul>
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dpzlearn_image'><img src='images/ARAI Logo.png'></div>
+                <img src='images/ARAI Logo.png'>
+              </div>
+              <script type="text/javascript">
+                function dpzlearn_start() {
+                  document.getElementById('dpzlearn_image').style.opacity = "1";
+                }
+
+                function dpzlearn_stop() {
+                  document.getElementById('dpzlearn_image').style.opacity = "0";
+                }
+                dpzlearn_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Malware Recognition using Deep Learning</papertitle>
+              <br>
+              <p></p>
+              <p>
+              	<br>
+              	<ul>
+              		<li>Built a CNN model that categorises a file as Malware or Non-Malware by processing the file image</li>
+              		<li>Framework converts a file into it's corresponding image by reading it in binary form, then pass it through the CNN, which is pre-trained on a curated dataset, which predicts whether the file is Malware or not</li>
+              	</ul>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
 </body>
 
 </html>
