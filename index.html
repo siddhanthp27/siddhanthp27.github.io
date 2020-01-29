@@ -283,6 +283,37 @@ across varying loads</li>
           <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
+                <div class="two" id='dpzlearn_image'><img src='images/taxi-fare.jpg' width="160" height="160"></div>
+                <img src='images/taxi-fare.jpg' width="160" height="160">
+              </div>
+              <script type="text/javascript">
+                function dpzlearn_start() {
+                  document.getElementById('dpzlearn_image').style.opacity = "1";
+                }
+
+                function dpzlearn_stop() {
+                  document.getElementById('dpzlearn_image').style.opacity = "0";
+                }
+                dpzlearn_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Cloud Fare Prediction Service</papertitle>
+              <br>
+              <p></p>
+              <p>
+                <br>
+                <ul>
+                  <li>Implemented an end-to-end Fare Prediction Service with custom-built features hosted on Google App Engine using services from Google Cloud Platform</li>
+                  <li>Integrated various services such as HyperTune, Cloud Speech-to-Text, Cloud Text-to-Speech, Cloud Natural Language API to accept speech queries and deliver speech results</li>
+                </ul>
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
                 <div class="two" id='dpzlearn_image'><img src='images/video_processing_pipeline.jpeg' width="160" height="160"></div>
                 <img src='images/video_processing_pipeline.jpeg' width="160" height="160">
               </div>
